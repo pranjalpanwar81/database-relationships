@@ -204,18 +204,6 @@ node one-to-many/posts.js
 
 ---
 
-## 📝 Key Takeaways
-
-- Use **Embedded Documents** when related data is small and always accessed together.
-- Use **Referenced Documents** when related data grows independently.
-- **ObjectId** is used to establish relationships between collections.
-- **ref** tells Mongoose which model the ObjectId belongs to.
-- **populate()** replaces ObjectIds with complete document data.
-- **Mongoose Middleware** can automate tasks such as Cascade Delete.
-- Choosing the correct relationship pattern improves scalability and performance.
-
----
-
 ## 📖 References
 
 - MongoDB Documentation
