@@ -41,6 +41,13 @@ const customerSchema = new Schema({
   ],
 });
 
+customerSchema.pre("findOneAndDelete", async (customer) => {
+  if (customer.orders.length) {
+    let res = await Order.deleteMany({ _id: { $in: customer.orders } });
+    customer.log(res);
+  }
+});
+
 const Customer = mongoose.model("Customer", customerSchema);
 
 //Functions 
