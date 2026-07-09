@@ -6,20 +6,6 @@ It is part of my backend development learning journey, where I explore different
 
 ---
 
-## 📚 Relationships Covered
-
-| Relationship | Status |
-|--------------|--------|
-| One-to-Few | ✅ Completed |
-| One-to-Many | ✅ Completed |
-| One-to-Squillions | ✅ Completed |
-| Many-to-Many | ⏳ Coming Soon |
-| Virtual Populate | ⏳ Coming Soon |
-| Aggregation Pipeline | ⏳ Coming Soon |
-| Transactions | ⏳ Coming Soon |
-
----
-
 ## 📖 Relationship Overview
 
 ### 1. One-to-Few
